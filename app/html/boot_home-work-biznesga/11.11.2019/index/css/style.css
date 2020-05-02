@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+}
+
+body {
+    min-width: 320px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* ================================HEADER============================= */
+header {
+    width: 100%;
+    min-height: 670px;
+    background: url(../images/index_01.jpg) center center / cover;
+    background-repeat: no-repeat;
+}
+
+header nav {
+    width: 100%;
+    min-height: 100px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav ul li a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 14px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #1f8b48;
+}
+
+header nav ul .activ {
+    color: #1f8b48;
+}
+
+
+/* ------------------NAV---FINISH----------------------------- */
+
+
+header h1 {
+    font-weight: 500;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+
+header p {
+    font-weight: 100;
+    font-size: 16px;
+    color: #787878;
+    margin-bottom: 50px;
+}
+
+button {
+    width: 190px;
+    height: 54px;
+    background: #007d2f;
+    border: none;
+}
+
+button a {
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+/* ============================HEADER FINIW=============================== */
+
+
+
+
+/* ===================================section ======================================= */
+
+section {
+    width: 100%;
+    min-height: 419px;
+}
+
+section h2 {
+    font-weight: 500;
+    font-size: 35px;
+    color: #191919;
+    margin-top: 95px;
+    margin-bottom: 45px;
+}
+
+section p {
+    text-align: center;
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 30px;
+}
+
+/* ===================================section finiw ===================================== */
+
+
+
+
+/* ======================================== MAIN ======================================= */
+main {
+    min-height: 570px;
+    background: #f8f9f9;
+}
+
+main h3 {
+    margin-top: 160px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #171717;
+}
+
+/* .abdu {
+    background: url(../images/index_04.jpg) center center / cover;
+} */
+
+.parag {
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+    padding: 40px 0 10px 0;
+    text-transform: uppercase;
+}
+
+/* ======================================== MAIN FINIW =================================== */
+
+/* ====================================== CONTAINER-FLUID start============================= */
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+
+
+.container-fluid .col-lg-3,
+.container-fluid  .col-md-6,
+.container-fluid .col-12 {
+    padding: ;
+}
+
+.div {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #007d2f;
+}
+
+.div p {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.divover {
+    transition: 300ms;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: scale(0);
+}
+
+.posit {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.posit img {
+    box-sizing: border-box;
+}
+
+.posit:hover .divover {
+    transform: scale(1);
+}
+
+
+
+/* ====================================== CONTAINER-FLUID finiw ============================= */
+
+
+/* ====================================== vidioli rasm start =============================== */
+
+.section h3 {
+    font-weight: 500;
+    font-size: 44px;
+    color: #191919;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.section p {
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #7a7a7a;
+    margin-bottom: 50px;
+}
+
+.section .imgbox {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.section img {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.section .play {
+    width: 85px;
+    height: 85px;
+    border: none;
+    background: #007d2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+}
+
+.section .play .fa {
+    color: white;
+}
+
+/* ====================================== vidioli rasm finiw =============================== */
+
+/* ============================= SERVER==================================== */
+
+.server {
+    width: 100%;
+    min-height: 240px;
+    background: #007d2f;
+    padding-top: 60px;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.server .fa {
+    color: white;
+    font-size: 41px;
+}
+
+.col-md-2 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.server .contact {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 19px;
+    color: white;
+}
+
+.server .nomi {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 13px;
+    color: white;
+}
+
+
+/* =================================== ikonki =================================== */
+.ikonki {
+    width: 100%;
+    min-height: 535px;
+    background: #f5f5f5;
+    padding-top: 105px;
+}
+
+.ikonki .fonsiz {
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+
+.ikonki .fonli {
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 16px;
+    color: #7c7c7c;
+    margin-bottom: 50px;
+    max-width: 227px;
+}
+
+.ikonki .fa {
+    font-weight: 100;
+    font-size: 45px;
+}
+
+/* ============================== ikonki finiw ======================================== */
+
+
+/* ================================ CAROUSEL ========================================= */
+
+.p-slider .bd-example .carousel .carousel-inner .carousel-item .carousel-caption p.carouse1 {
+    margin-top: 195px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.p-slider .bd-example .carousel .carousel-inner .carousel-item {
+    position: relative;
+}
+
+.p-slider .bd-example .carousel ol {
+    position: absolute;
+    bottom: 10px;
+    height: 10px;
+}
+
+.carousel-indicators .active {
+    width: 10px !important;
+    height: 10px !important;
+    background: #ffffff !important;
+    transition: 1s !important;
+
+}
+
+.p-slider .bd-example .carousel .carousel-inner .carousel-item .carousel-caption p.carouse2 {
+    margin-bottom: 95px;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.p-slider .bd-example .carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #b0e8e6;
+    border: none;
+    transition: 1s;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 500px;
+}
+
+/* =============================PNGS ====================================== */
+
+.pngs {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+
+/* =============================PNGS finiw====================================== */
+
+section.form {
+    width: 100%;
+    min-height: 750px;
+    background: #f5f5f5;
+}
+
+.formm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.form p.Need {
+    margin-top: 27px;
+    margin-bottom: 33px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #1d1d1d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section.form p.needtop {
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 16px;
+    color: #787878;
+    width: 540px;
+    margin-bottom: 40px;
+}
+
+.form .formm input {
+    border: none;
+
+}
+
+.form .formm input.text {
+    width: 350px;
+    height: 50px;
+    background: white;
+    margin: 0 10px 30px 10px;
+    padding-left: 10px;
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+}
+
+.form .formm input.tile {
+    width: 760px;
+    height: 50px;
+    background: white;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+}
+
+.form .formm .coment {
+    width: 760px;
+    height: 170px;
+    background: white;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border: none;
+    resize: none;
+    font-family: 'Nunito', 'serif';
+    font-weight: 400;
+    font-size: 15px;
+    color: #787878;
+}
+
+/* ===================================== form finiw ===================================== */
+
+/* ===================================== footer start ====================================== */
+footer {
+    width: 100%;
+    min-height: 285px;
+    background: black;
+}
+
+.padding-top {
+    padding-top: 105px;
+}
+
+.Macintosh {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.Macintoshp {
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+footer a {
+    color: #bbbbbb;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+/*  ================================== footer finiw ================================== */
+
+/* ==============================  MEDIA  ======================================= */
+
+@media (max-width:992px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:576px) {}
+
+@media (max-width:320px) {}

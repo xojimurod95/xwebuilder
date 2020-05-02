@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    min-width: 320px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* ===================================== HEADER NAV ================================= */
+header nav {
+    width: 100%;
+    min-height: 100px;
+    background: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav ul li a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 14px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #1f8b48;
+    font-weight: 700;
+}
+
+header nav ul .activ {
+    color: #1f8b48;
+    font-weight: 700;
+}
+
+/* ===================   HEADER NAV FINISH ======================= */
+
+
+/* ========================== SECTION ========================= */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #007d2f;
+    padding-bottom: 30px;
+}
+
+section h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #171717;
+    margin-top: 110px;
+}
+
+section p {
+    margin-top: 30px;
+    text-align: center;
+    max-width: 540px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+/* ===================  CONTAINER FLUID ========================= */
+
+.container-fluid {
+    max-width: 1366px;
+}
+
+.container-fluid .overflow {
+    transition: 800ms;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: scaleX(0);
+}
+
+.container-fluid .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: chocolate;
+    transition: 800ms;
+    transform: scaleX(0);
+    opacity: 0.5;
+}
+
+
+
+ .container-fluid .posit:hover .back {
+    transform: scale(1);
+}
+
+.container-fluid .posit:hover .overflow {
+    transform: scale(1);
+}
+
+.container-fluid .col-lg-3 {
+    padding: 0;
+}
+
+.container-fluid .posit {
+
+    position: relative;
+}
+
+.container-fluid .col-lg-3 img {
+    width: 100%;
+}
+
+.container-fluid .posit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======================= CONTAINER FINIW ======================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================================== footer start ====================================== */
+footer {
+    width: 100%;
+    min-height: 285px;
+    background: black;
+}
+
+.padding-top {
+    padding-top: 105px;
+}
+
+.Macintosh {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.Macintoshp {
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+footer a {
+    color: #bbbbbb;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+/*  ================================== footer finiw ================================== */

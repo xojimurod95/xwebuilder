@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    list-style: none;
+    min-width: 320px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background:#f6f6f6;
+}
+
+/* ===================================== HEADER NAV ================================= */
+header nav {
+    width: 100%;
+    min-height: 100px;
+    background: white;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header nav ul li a {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 14px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: #1f8b48;
+    font-weight: 700;
+}
+
+header nav ul .activ {
+    font-weight: 700;
+    color: #1f8b48;
+}
+
+
+/* ------------------NAV---FINISH----------------------------- */
+
+section .col-lg-5{
+    padding-top: 105px;
+}
+section h2{
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color:#171717;
+}
+
+section a{
+    display: block;
+    margin-top: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:#787878;
+}
+section a span{
+    font-weight: 700;
+    color:#171717;
+}
+
+section a:first-of-type{
+    margin-top: 60px;  
+}
+/* =============  SECTION FINIW ================== */
+
+main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1f8b48;
+    position: relative;
+}
+
+.div{
+    width: 16px;
+    height: 16px;
+    background: #1f8b48;
+    position: absolute;
+    left: 50%;
+}
+
+.roow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ttop{
+    margin-top: 4px;
+}
+
+button{
+    border:none;
+    background: #1f8b48;
+}
+button .fa{
+    color:black;
+}
+
+.roow .fa{
+    width: 6px;
+    height: 6px;
+    background: #f6f6f6;
+
+}
+.fa-stop:before {
+    content: "";
+}
+ 
+/* ===================================== footer start ====================================== */
+footer {
+    width: 100%;
+    min-height: 285px;
+    background: black;
+}
+
+.padding-top {
+    padding-top: 105px;
+}
+
+.Macintosh {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+}
+
+.Macintoshp {
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+footer a {
+    color: #bbbbbb;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+/*  ================================== footer finiw ================================== */

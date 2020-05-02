@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --rblack: 900;
+    --rmedum: 500;
+    --rregular: 400;
+    --rlight: 300;
+    --rthin: 100;
+
+
+}
+
+/* =====header===== */
+header {
+    width: 100%;
+}
+
+nav {
+    margin: auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78px;
+    padding-bottom: 55px;
+}
+
+header nav h1 {
+    font-size: 40px;
+    font-weight: var(--rblack);
+    color: #011555;
+    text-transform: uppercase;
+}
+
+.dropdown button {
+    background: none;
+    border: white;
+}
+
+/* =====top===== */
+
+.top {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    background: url('./images/images/tashkent_travels_02.jpg') no-repeat center / cover;
+}
+
+.top .texp {
+    width: 1000px;
+    padding-top: 137px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+}
+
+.top h2 {
+    font-size: 50px;
+    font-weight: var(--rthin);
+    color: #626262;
+    font-family: var(--rthin);
+}
+
+.top span {
+    font-size: 50px;
+    font-weight: var(--rblack);
+    color: #011556;
+}
+
+.top p {
+    width: 800px;
+    padding-top: 35px;
+    font-size: 16px;
+    font-weight: var(--rlight);
+    color: #000000;
+    display: inline-block;
+}
+
+/* =====sendmail===== */
+
+.sendmail {
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 70px;
+    width: 380px;
+    border: 2px solid white;
+    background: white;
+}
+
+.sendmail h2 {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: var(--rregular);
+    color: #011556;
+}
+
+.sendmail .bir {
+    width: 300px;
+    font-size: 15px;
+    font-weight: var(--rregular);
+    color: #808080;
+    border: none;
+    padding-top: 40px;
+    border-bottom: 1px solid grey;
+}
+
+.sendmail .oxr {
+    width: 300px;
+    padding-top: 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-bottom: 70px;
+}
+
+.sendmail button {
+    padding: 25px 25px;
+    border-radius: 50px;
+    border: 2px solid;
+    background: #011556;
+    margin-bottom: 13px;
+}
+
+.sendmail button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.col_12 h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    color: #586082;
+    font-family: var(--rblack);
+    font-size: 50px;
+}
+
+/* =====container===== */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container .img {
+    display: flex;
+    flex-direction: column;
+    padding-right: 58px;
+    align-items: center;
+}
+
+.container .chiziq {
+    margin-top: 20px;
+    font-size: 36px;
+    color: #011556;
+    font-family: 'Roboto bold';
+    border-bottom: 2px solid #011556;
+    margin-bottom: 80px;
+}
+
+/* =====section====== */
+
+section {
+    padding: 70px 0;
+    background: #fbfbfb;
+}
+
+section .row h2 {
+    font-size: 50px;
+    font-family: 'Roboto black';
+    color: #334377;
+    margin-bottom: 50px;
+}
+
+section .row p {
+    max-width: 750px;
+    font-family: 'Roboto medium';
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-bottom: 112px;
+}
+
+
+
+/* ========== */
+.marbot {
+    margin-bottom: 23px;
+}
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.div1 {
+    justify-content: space-evenly;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+.hover {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    opacity: 0.6;
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+
+.div1:hover .hover {
+    right: 0;
+}
+
+.col_3 .hover p:nth-of-type(1) {
+    color: #011556;
+    font-family: 'Roboto regular';
+    font-size: 30px;
+    margin-bottom: 30px;
+
+}
+
+.col_3 .hover p:nth-of-type(2) {
+    width: 212px;
+    font-family: 'Roboto regular';
+    font-size: 14px;
+    color: #011556;
+    margin-bottom: 45px;
+}
+
+.hover a {
+    display: block;
+    margin: 17px 46px;
+    font-family: 'Roboto regular';
+    font-size: 17px;
+    color: white;
+}
+
+.hover button {
+    background: #011556;
+    border: none;
+    border-radius: 50px;
+}
+
+/* ========== ==========    ========== ==========   ========== ========== */
+
+.section1_1 .menu h2 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    color: #344478;
+    font-family: 'Roboto bold';
+    font-size: 50px;
+}
+
+.section1_1 .menu p {
+    color: #000000;
+    font-size: 21px;
+    font-family: 'Roboto regular';
+}
+
+.section1_1 .menu .joyida {
+    margin-bottom: 280px;
+}
+
+/* ========== ==========    ========== ==========   ========== ========== */
+
+.section2_1 {
+    background: #fbfbfb;
+}
+
+.section2_1 .container .images_s  h2 {
+    font-size: 50px;
+    font-family: 'Roboto bold';
+    color: #575e81;
+    margin-top: 70px;
+    margin-bottom: 45px;
+    text-align: center;
+  
+}
+
+.secp {
+    max-width: 720px;
+    font-size: 16px;
+    font-family: 'Roboto regular';
+    color: #bbbbbb;
+    margin: auto;
+    margin-bottom: 150px;
+
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 100px;
+
+}
+
+.img {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.rasmla {
+    width: 262px;
+    height: 95px;
+    background: white;
+    position: absolute;
+    bottom: -50px;
+    left: 60px;
+    text-align: center;
+}
+
+.rasmla p:nth-of-type(1) {
+    font-family: 'Roboto medium';
+    font-size: 28px;
+    color: #4c4c4c;
+}
+
+.rasmla p:nth-of-type(2) {
+    color: #4d5b88;
+    font-family: 'Roboto medium';
+    font-size: 24px;
+}
+
+/* ========== ==========    ========== ==========   ========== ========== */
+
+
+.section3_1{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.section3_1 h2{
+    font-family: 'Roboto bold';
+    font-size: 50px;    
+    color:#344478;
+    margin-top: 70px;
+    margin-bottom: 87px;
+    text-align: center;
+}
+
+
+.section3_1 p{
+    color:#7f7f7f;
+    margin-bottom:140px;
+    font-family: 'Roboto medium';
+    font-size: 16px;
+}
+.col-lg-5{
+    max-width: 535px;
+    min-height: 270px;
+    margin:18px;
+    box-shadow:  0 0 100px #f1f1f1;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.say{
+    width: 100px;
+    height: 100px;
+    margin-top:-35px;
+    margin-left: 40%;
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+.say{
+    width: 100px;
+    height: 100px; 
+    margin-top:-35px;
+    margin-left: 40%; 
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+.Al_Rayhan{
+    width: 100px;
+    height: 100px; 
+    margin-top:-35px;
+    margin-left: 40%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.say img{
+    transform: translateX(-38px) translateY(-5px);
+}
+.Al_Rayhan img{
+    transform: translateY(-40px) translateX(-20px);
+}
+.Brad_Tomphson img{
+    transform: translateX(-30px) translateY(-5px);
+}
+
+
+.golds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+.gold{
+    color:#ffef3b;
+}
+.lllr p:nth-of-type(1){
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-family: 'Roboto medium';
+    font-size: 17px;
+    color:#4c4c4c;
+    text-align: center;
+}
+.lllr p:nth-of-type(2){
+    margin:0;
+    font-family: 'Myriad Pro' , serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#585858;
+    text-align: center;
+}

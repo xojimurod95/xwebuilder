@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia';
+    background: #e0e0e0;
+}
+
+header {
+    width: 100%;
+
+}
+
+header nav {
+    width: 100%;
+}
+
+
+header .menu-top {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header ul {
+    width: 1000px;
+    padding: 20px 0 20px 20px;
+    background: #2d2928;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header ul li {
+    margin: 0 3px;
+}
+
+header .menu-top ul li .ikonka_03 {
+    width: 157px;
+    height: 33px;
+    padding: 10px 23px 10px 545px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c4c4c4;
+    transition: 500ms;
+}
+
+header nav .ikonka_06 {
+    width: 1000px;
+    height: 185px;
+}
+
+header nav .menux {
+    width: 1000px;
+    border-top: double;
+    border-bottom: double;
+    margin-left: 20px;
+
+}
+
+header nav .menux ul {
+    height: 8px;
+    background: #e0e0e0;
+}
+
+header nav .menux ul li {
+    margin-right: 38px;
+    margin-left: -20px;
+}
+
+header nav .menux ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+header nav .menux ul li a:hover {
+    color: #999999;
+
+}
+
+/* ===================================== */
+
+/* section */
+
+section {
+    margin: 35px 0 10px 20px;
+}
+
+section .magazine {
+    width: 1000px;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section .magazine .left {
+    width: 520px;
+    height: 460px;
+    padding-right:30px; 
+}
+
+section .magazine .left img {
+    padding-bottom: 18px;
+}
+
+section .magazine .left h2 {
+    padding-bottom: 12px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #444444;
+}
+
+section .magazine .left p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 20px;
+    margin-bottom: 55px;
+
+}
+
+/* ================================================= */
+
+section .magazine .right {
+    width: 480px;
+    height: 480px;
+}
+
+section .magazine .right .right-table {
+    width: 440px;
+    height: 120px;
+    display: flex;
+    align-content: flex-start;
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+
+section .magazine .right .right-table-text {
+    width: 428px;
+    height: 88px;
+    padding-left: 12px;
+    display: block;
+
+}
+
+section .magazine .right .right-table-text h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #444444;
+    padding-top: 10px;
+    line-height: 35px;
+}
+
+section .magazine .right .right-table-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 18px;
+}
+
+section .magazine .right .right-table2{
+    width: 421px;
+
+}
+
+section .magazine .right .right-table2 h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 13px;
+}
+
+section .magazine .right .right-table2 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+/* =========================================== */
+
+/* footer */
+footer {
+    margin-top: 52px;
+    width: 1000px;
+    height: 207px;
+    margin-left: 20px;
+}
+
+footer .menu-bottom {
+    width: 1000px;
+    height: 170px;
+    border-top: double;
+    border-bottom: double;
+    padding: 37px 19px 37px 0;
+}
+
+
+footer .menu-bottom .footer-menu {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+footer .menu-bottom .text-menu {
+    padding-right: 17px;
+}
+
+footer .menu-bottom .text-menu h2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+}
+
+footer .menu-bottom .text-menu hr {
+    color: #666666;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+footer .menu-bottom .text-menu ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+
+footer .menu-bottom .text-menu ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #982216;
+    text-decoration: none;
+}
+
+.reklama{
+    width: 1000px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.reklama h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.reklama p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #787878;
+
+}
+

@@ -1,0 +1,149 @@
+/*  ============ ROOT CSS VAR START =========== */
+:root{
+    --fm: 'Raleway', sans-serif;
+    --fm-thin: 100;
+    --fm-light: 300;
+    --fm-regular: 400;
+    --fm-bold: 700;
+    --fm-black: 900;
+    --green75: rgba(105, 207, 23, 0.75); /* Price - Link Uchun */
+    --green90: rgba(105, 207, 23, 0.90); /* Hover Uchun Gamburger uchun*/
+    --green: #69cf17; /* header link uchun */
+    --green-1: #4e9f0d; /* Logoni bacgraundi */
+    --green-2: #62be19; /* Logoni borderi */
+    --gray-p: #dedede; /* HEADER PARAGRAF */
+    --gray: #7a7a7a; /* SECTION link */
+    --white: #ffff;
+    --dark: #060002; /* BODY UCHUN */
+    --black: rgba(30, 30, 30, 0.1); /* ICHKI BOX SHADOW */
+    --col-1: calc(100% / 12 * 1);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: calc(100% / 12 * 12);
+}
+
+
+/*  ============ ROOT CSS VAR end =========== */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    font-family: var(--fm);
+    background: var(--dark);
+    min-width: 320px;
+}
+.continer{
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+/*  ============ justify =========== */
+
+.justify-contet-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-contet-start{
+    justify-content: flex-start;
+}
+
+
+/*  ============ align-items =========== */
+
+.align-items-center{
+    align-items: center;
+}
+.align-items-start{
+    align-items: flex-start;
+}
+
+
+/*  ============ flex-diction =========== */
+.flex-column{
+    flex-direction: column;
+}
+
+
+/*  ============ col- =========== */
+.col-12{
+    width: var(--col-12);
+    padding: 0 15px;
+}
+.col-4{
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+
+
+
+
+/* ========= HEADER_START ========== */
+header{
+    width: 100%;
+    min-height: 770px;
+    background: url('./images/bg_img.jpg')no-repeat center center / cover;
+}
+.logo{
+    color: var(--white);
+    font-size: 24px;
+    font-weight: var(--fm-bold);
+    text-transform: uppercase;
+    background: var(--green-1);
+    border: 3px solid var(--green-2);
+    border-radius: 5px;
+    padding: 11px 22px;
+    line-height: 17px;
+    box-shadow: inset 0 0 25px var(--black);
+}
+header nav ul{
+    display: flex;
+}
+header nav ul a{
+    color: var(--green);
+    font-size: 20px;
+    font-weight: var(--fm-light);
+    padding: 37px 26px 29px 26px;
+    display: block;
+    transition: 500ms;
+}
+header nav ul li .active{
+    padding: 37px 11px 29px 10px;
+    background: var(--green75);
+    color: var(--white);
+}
+header nav ul li .active:hover{
+    padding: 37px 11px 29px 10px;
+}
+header nav ul a:hover{
+    padding: 37px 26px 29px 26px;
+    background: var(--green75);
+    color: var(--white);
+}

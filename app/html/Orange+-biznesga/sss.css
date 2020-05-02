@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 570px;
+    background: url('image/header_bg.jpg') no-repeat center bottom;
+}
+
+header .menu-top {
+    background: #f8f8f8;
+    padding: 7px 0;
+    box-shadow: 0 0 8px #cfc9c4;
+}
+
+header nav {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 17px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4e4e4e;
+    transition: 500ms;
+}
+
+header ul li a:hover {
+    color: #dd4400;
+}
+
+header ul li .active {
+    color: #dd4400;
+}
+
+/* ============================ */
+
+/* section */
+
+section .wraper {
+    width: 1140px;
+    padding: 50px 0 100px 0;
+    margin: auto;
+}
+
+section .wraper .about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+section .wraper .about .iteam {
+    width: 256px;
+    text-align: center;
+    box-shadow: 0 0 8px #edded9;
+    padding: 50px 0 26px 0;
+}
+
+section .wraper .about .iteam h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #dd4400;
+}
+
+section .wraper .about .iteam .line {
+    margin: 50px 0 30px 0;
+}
+
+section .btn {
+    background: #dd4400;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 13px 53px 11px 53px;
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+section .btn:hover {
+    background: forestgreen;
+    color: black;
+}
+
+
+/* ============================== */
+
+section .business {
+    display: flex;
+    justify-content: space-between;
+    color: #5e5e5e;
+}
+
+section .business .left {
+    width: 730px;
+
+}
+
+section .business .right {
+    width: 250px;
+}
+
+section .business h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 52px;
+}
+
+section .business .left p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+section .business .left .btn {
+    margin-top: 0;
+}
+
+/* ==================== */
+
+
+section .business .right .works {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+section .business .right .works img {
+    width: 65px;
+    height: 65px;
+    margin-right: 30px;
+}
+
+section .business .right .works a {
+    color: #dd4400;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ======================= */
+
+/* footer */
+
+footer {
+    color: white;
+    background: #dd4400;
+    padding: 65px 0;
+}
+
+footer .contact {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact h2 {
+    margin-bottom: 23px;
+    font-size: 32px;
+    font-weight: 400px;
+}
+
+footer .contact .left a {
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+footer .contact .left p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer .contact .right p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+footer .contact .right a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}

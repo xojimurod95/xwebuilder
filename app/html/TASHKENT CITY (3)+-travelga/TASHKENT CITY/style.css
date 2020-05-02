@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 320px;
+    background: white;
+}
+
+header {
+    min-height: 986px;
+    width: 100%;
+    background: url(./images/tashkent_travels_02.jpg) center center no-repeat;
+    background-size: cover;
+}
+header .imggg{
+    width: 100%;
+    min-height: 160px;
+    background: white;
+}
+
+.toshkent-travels {
+    color: #747a94;
+    font-family: 'Roboto black';
+    margin: 80px 0 53px;
+    font-size: 40px;
+}
+
+.header {
+    width: 100%;
+    height: 829px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.fa-bar{
+   background: white;
+    border: none;
+}
+.fa-bars{
+    font-size: 20px;
+    color:#746f77;
+}
+
+
+h1 {
+    margin-top: 125px;
+    margin-bottom: 36px;
+    font-family: 'Roboto thin';
+    font-size: 50px;
+}
+
+h1 span {
+    font-family: 'Roboto bold';
+}
+
+.header p:nth-of-type(1) {
+    color: #5a5e62;
+    font-family: 'Roboto light';
+    font-size: 16px;
+}
+
+.form {
+    margin-top: 105px;
+    margin-bottom: 70px;    
+    background: white;
+    width: 375px;
+    height: 390px;
+}
+.form img{
+    width: 280px;
+}
+header .form{
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.header .form p{
+    font-family: 'Roboto regular';
+    font-size: 20px;
+    color:#35406d;
+    padding: 35px ;
+
+}
+/* ========================================input=========================== */
+.form input[type="email"]{
+  
+    border:none;
+}
+.form input[type="text"]{
+
+    border:none;    
+}
+textarea{
+    border:none;
+}
+/* ============================================================================= */
+
+.form button{
+    padding:21px 23px 18px;
+    border: none;
+    background: #011556;
+    border-radius: 26px;
+    margin-left: 30px;
+    margin-bottom: 13px;
+    margin-top: 20px;
+}
+.form button a{
+    font-family: 'Roboto bold';
+    font-size: 16px;
+    color:white; 
+}
+button i{
+    color:white;
+    margin-left: 10px;
+}
+
+/* ======================HEADER  FINISH================================================ */
+
+
+/* ======================MAIN START==================================================== */
+main h2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    color:#586082;
+    font-family: 'Roboto black';
+    font-size: 50px;
+}
+main p{
+    margin-top: 20px;
+    font-size: 36px;
+    color:#011556;
+    font-family: 'Roboto bold';
+    border-bottom: 2px solid #011556;
+    margin-bottom: 80px;
+}
+
+.mt-10{
+margin-top: 45px;
+}
+
+.zzz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ============================SECTION ====================================== */
+section{
+    padding: 70px 0;
+    background: #fbfbfb;
+}
+
+section h2{
+    color:#334377;
+    font-family: 'Roboto black';
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+section p{
+    max-width: 750px;
+    font-family: 'Roboto medium';
+    font-size: 16px;
+    color:#a0a0a0;
+    margin-bottom: 112px;
+}
+/*  */
+.marbot{
+    margin-bottom: 23px;
+}
+/*  */
+.div img{
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.div{
+
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.divover{
+    position: absolute;
+    right:-100%;
+    top: 0;
+    width: 96%;
+    height: 100%;
+    background: white;
+    opacity: 0.6;
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div:hover .divover{
+        right: 0;
+}
+.divover p:nth-of-type(1){
+    color:#011556;
+    font-family: 'Roboto regular';
+    font-size: 30px;
+    margin-top: 65px;
+    margin-bottom: 30px;
+    
+}
+.divover p:nth-of-type(2){
+    width: 212px;
+    font-family: 'Roboto regular';
+    font-size: 14px;
+    color:#011556;
+    margin-bottom: 45px;
+}
+.divover a{
+    display: block;
+    margin: 17px 46px;
+    font-family: 'Roboto regular';
+    font-size: 17px;
+    color:white;
+}
+.divover button{
+    background: #011556;
+    border:none;
+    border-radius: 50px;
+}
+ /* ==========================SECTION FINIW==================================== */
+ .section h2{
+     text-align: center;
+     margin-top: 70px;
+     margin-bottom: 60px;
+     color:#344478;
+     font-family: 'Roboto bold';
+     font-size: 50px;    
+ }
+ .section p{
+     color:#000000;
+     font-size: 21px;
+     font-family: 'Roboto regular';
+ }
+ .joyida{
+     margin-bottom: 280px;
+ }
+
+ /* ============================================================================= */
+
+
+ /* ========================SECTION1 ========================================== */
+ .section1{
+     background: #fbfbfb;
+ }
+ .section1 h2{
+    font-family: 'Roboto bold';
+    font-size: 50px;    
+    color:#575e81;   
+    margin-top: 70px;
+    margin-bottom: 45px;
+ }
+ .sectionp{
+    max-width: 710px;
+    font-size: 16px;
+    font-family: 'Roboto regular';
+    color:#bbbbbb;
+    margin-bottom: 150px;
+ }
+ .images{   
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+    
+     margin-bottom: 100px;
+   
+}
+.img{
+    margin-bottom: 100px;  
+    position: relative;
+}
+.senik{
+    width: 262px;
+    height: 95px;
+    background: white;
+    position: absolute;
+    bottom: -50px;
+    left: 60px;
+    text-align: center;
+}
+.senik p:nth-of-type(1){
+    font-family: 'Roboto medium';
+    font-size: 28px;
+    color:#4c4c4c;
+}
+.senik p:nth-of-type(2){
+    color:#4d5b88;
+    font-family: 'Roboto medium';
+    font-size: 24px;
+}
+/* ==================================SECTION1 FINIW=================================== */
+
+
+/* ==================================SECTION2 start=================================== */
+ 
+.section2{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.section2 h2{
+    font-family: 'Roboto bold';
+    font-size: 50px;    
+    color:#344478;
+    margin-top: 70px;
+    margin-bottom: 87px;
+    text-align: center;
+}
+
+
+.section2 p{
+    color:#7f7f7f;
+    margin-bottom:140px;
+    font-family: 'Roboto medium';
+    font-size: 16px;
+}
+.col-lg-5{
+    max-width: 535px;
+    min-height: 270px;
+    margin:18px;
+    box-shadow:  0 0 100px #f1f1f1;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.dumalo{
+    width: 100px;
+    height: 100px;
+    margin-top:-35px;
+    margin-left: 40%;
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+.dumaloo{
+    width: 100px;
+    height: 100px; 
+    margin-top:-35px;
+    margin-left: 40%; 
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+.dumalooo{
+    width: 100px;
+    height: 100px; 
+    margin-top:-35px;
+    margin-left: 40%;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.dumalo img{
+    transform: translateX(-38px) translateY(-5px);
+}
+.dumaloo img{
+    transform: translateY(-40px) translateX(-20px);
+}
+.dumalooo img{
+    transform: translateX(-30px) translateY(-5px);
+}
+
+
+.golds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+.gold{
+    color:#ffef3b;
+}
+.lllr p:nth-of-type(1){
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-family: 'Roboto medium';
+    font-size: 17px;
+    color:#4c4c4c;
+    text-align: center;
+}
+.lllr p:nth-of-type(2){
+    margin:0;
+    font-family: 'Myriad Pro' , serif;
+    font-weight: 400;
+    font-size: 17px;
+    color:#585858;
+    text-align: center;
+}
+/* ===========================SSECTION2 FINIW================================0 */
+
+
+/* ==============================FOOOOTER======================================== */
+
+
+footer{
+    width: 100%;
+    min-height: 260px;
+    background: #f7f7f7;
+    margin-top: 70px;
+    padding-top: 70px;
+}
+footer button a{
+    display: block;
+    margin: 22px 85px;
+    text-decoration: none;
+    color:white;
+}
+footer button{
+    border:none;
+    border-radius:100px;
+    margin-bottom: 30px;
+    background: #011556;
+}
+.facebook{
+    width: 53px;
+    height: 53px;
+    border-radius: 100px;
+    background: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    transition: 100ms;
+}
+.facebook:hover{
+    background:#011556;
+}
+.twiter:hover{
+    background:#011556;
+}
+.ball:hover{
+    background:#011556;
+}
+
+.rangisize{
+    font-size: 20px;
+    color:white;
+}
+.twiter{
+    width: 53px;
+    height: 53px;
+    border-radius: 100px;
+    background: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-right: 16px;
+    transition: 100ms;
+}
+.ball{
+    width: 53px;
+    height: 53px;
+    border-radius: 100px;
+    background: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 100ms;
+}
+.contact p{
+    margin-top: 10px;
+    margin-left: 16px;
+    font-family: 'FontAwesome';
+    text-decoration: underline;  
+}
+.marrtop{
+    margin-top: 70px;
+}
+/* =====================================       footer finiw       ========================================== */
+
+
+
+
+/* ===================================            MEDIA     =================================================== */
+
+@media(max-width:992px){
+   .divover{
+       padding-bottom: 10px;
+   }
+    h1{
+        font-size: 40px;
+    }
+    header p:nth-of-type(1){
+        font-size: 12px;
+    }
+    .lllr{
+        background:black;
+    }
+    .col-md-8{
+        margin-top: 80px;
+    }
+
+    .divover p:nth-of-type(1) {
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .divover p:nth-of-type(2) {
+        margin-bottom: 25px;
+    }
+   
+
+}
+
+
+
+@media(max-width:768px){
+
+
+    .div img {
+        max-width: 100%;
+        height: 100%;
+    }
+    main h2 {
+        font-size: 40px;
+    }
+    section h2 {
+        font-size: 40px;
+    }
+    section img{
+        margin-left: 13% ;
+    }
+    img {
+        vertical-align: middle;
+        border-style: none;
+       
+    }
+}
+
+@media(max-width:576px){
+    h1{
+        font-size: 30px;
+    }
+    header p:nth-of-type(1){
+        font-size: 8px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .form button {
+        margin-top: 0; 
+    }
+
+
+
+}
