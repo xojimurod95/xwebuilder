@@ -7,9 +7,7 @@ var watch = require('gulp-watch');                  //musor papkani kuzatib avto
 var browserSync = require('browser-sync').create(); //
 var plumber = require('gulp-plumber');              //   
 var sourcemaps = require('gulp-sourcemaps');        //
-var less = require('gulp-less');
-// var CleanCSS = require('clean-css');             //shu      
-// var uglify = require('gulp-uglify-es').default;     //shu
+var less = require('gulp-less');                    //
 
 gulp.task('style', style);
 
